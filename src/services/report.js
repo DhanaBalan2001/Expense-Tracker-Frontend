@@ -12,11 +12,11 @@ export const generateReport = async (reportParams) => {
   
   // For file downloads, we need to handle it differently
   // We'll return the URL that the frontend can use to trigger a download
-  return `${api.defaults.baseURL}/reports/generate?${queryParams}`;
+  return `${api.defaults.baseURL}/api/reports/generate?${queryParams}`;
 };
 
 export const compareExpenses = async (period1Start, period1End, period2Start, period2End) => {
-  const response = await api.get('/expenses/compare', {
+  const response = await api.get('/api/expenses/compare', {
     params: {
       period1Start,
       period1End,
