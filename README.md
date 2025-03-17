@@ -81,10 +81,6 @@ You can use the following credentials to test the application:
 The frontend is deployed on Netlify:
 https://spectacular-cannoli-29ddb1.netlify.app
 
-## Screenshots
-
-(Include screenshots of key pages here)
-
 ## Contributing
 
 1. Fork the repository
